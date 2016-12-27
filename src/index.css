@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+.UserList{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content:space-around;
+  flex-wrap: wrap;
+}
+
+.UserListItem{
+  background: white;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  min-width: 200px;
+  border: 1px solid;
+  margin: 5px;
+}
+.upperCard{
+  padding: 10px;
+
+  text-align: center;
+}
+.middleCard{
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  background: #999;
+}
+.lowerCard{
+  padding: 10px;
+}
